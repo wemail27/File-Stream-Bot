@@ -126,12 +126,11 @@ async def help_handler(bot, message):
 
 <b>╭━━━━〔ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/RahulReviews'>ɴᴏʙɪᴛᴀ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
+┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/RahulReviews'>ꜰɪʟᴇ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
 ┣⪼<b>ꜱᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://telegram.me/RahulReviewsYT'>ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇꜱ</a></b>
 ┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/CodeXSupport'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
-┣⪼<b>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href='https://telegram.me/AllRequestGroups'>ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ</a></b>
 ┃
 <b>╰━━━━〔ᴘʟᴇᴀꜱᴇ sᴜᴘᴘᴏʀᴛ〕</b>""",
         
@@ -139,7 +138,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://youtube.com/@RahulReviews")],
-                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://github.com/CodeXBots/Nobita-Stream-Bot")]
+                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://github.com/CodeXBots/File-Stream-Bot")]
             ]
         )
     )
