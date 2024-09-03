@@ -10,8 +10,8 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', ''))
     API_HASH = str(getenv('API_HASH', '30fa091455c0548d77dc254f0bb705b0'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '6195871057:AAGzevzkPgPKoaYFHisKWeItUpStmgbM0Wg:'))
-    name = str(getenv('name', 'Filestoreogbot'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '7020270284:AAGJgu6rCYzdwf-f2Wy-eICQZ-aNTQIHa9s:'))
+    name = str(getenv('name', 'Publiclinkgenbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001815998255'))
