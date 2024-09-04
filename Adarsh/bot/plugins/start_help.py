@@ -126,7 +126,7 @@ async def help_handler(bot, message):
 
 <b>╭━━━━〔ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/RahulReviews'>ꜰɪʟᴇ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
+┣⪼<b>ɴᴀᴍᴇ : <a href='https://t.me/botsupports_og'>ᴘᴜʙʟɪᴄ ʟɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ</a></b>
 ┣⪼<b>ꜱᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://t.me/botsupports_og'>ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇꜱ</a></b>
@@ -138,7 +138,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://t.me/botsupports_og")],
-                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://t me/Downloader_TGBot")]
+                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://t.me/Downloader_TGBot")]
             ]
         )
     )
