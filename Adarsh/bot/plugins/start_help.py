@@ -70,7 +70,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://telegram.me/CodeXSupport'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://t.me/botsupports_og'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/CodeXBro).",
+                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://t.me/botsupports_og).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -129,16 +129,16 @@ async def help_handler(bot, message):
 ┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/RahulReviews'>ꜰɪʟᴇ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
 ┣⪼<b>ꜱᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://telegram.me/RahulReviewsYT'>ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇꜱ</a></b>
-┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/CodeXSupport'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://t.me/botsupports_og'>ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇꜱ</a></b>
+┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://t.me/+uetvaBu_d5k5MTU1'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
 ┃
 <b>╰━━━━〔ᴘʟᴇᴀꜱᴇ sᴜᴘᴘᴏʀᴛ〕</b>""",
         
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://youtube.com/@RahulReviews")],
-                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://github.com/CodeXBots/File-Stream-Bot")]
+                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://t.me/botsupports_og")],
+                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://t me/Downloader_TGBot")]
             ]
         )
     )
