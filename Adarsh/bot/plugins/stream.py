@@ -127,8 +127,6 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>⚠️ ᴛʜɪꜱ ʟɪɴᴋ ᴡɪʟʟ ᴇxᴘɪʀᴇ ᴀꜰᴛᴇʀ 𝟸𝟺 ʜᴏᴜʀꜱ</b>
 
-<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote></b>
-
 <b>❇️  ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Botsupports_og</b>"""
 
         await log_msg.reply_text(text=f"**ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True,  quote=True)
